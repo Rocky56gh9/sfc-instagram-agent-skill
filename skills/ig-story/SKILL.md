@@ -10,6 +10,12 @@ description: >-
 
 # ig-story
 
+> **SFC Central NJ fork.** Before anything else, read
+> `~/.claude/instagram/brand-rules.md` and `~/.claude/instagram/voice.md`.
+> brand-rules.md overrides this file wherever they conflict: hard bans, kids on
+> camera, no pricing, one CTA. Visual output (carousels, covers, story frames)
+> goes through the Canva SFC brand templates, not a home-built renderer.
+
 Stories are not a smaller feed. The feed is how strangers find you. Stories are
 how the people who already follow you decide whether you are a person worth
 buying from, and they are the only surface on Instagram where a tap turns into

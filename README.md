@@ -1,3 +1,32 @@
+# SFC Central NJ fork
+
+Fork of [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill),
+tuned for Sticky Fingers Cooking Central New Jersey.
+
+**What changed from upstream**
+- `sfc/brand-rules.md`: single source of truth for program facts, hard bans, kids-on-camera rules, voice register, visual system, CTAs.
+- `sfc/voice.md`: brand voice filled in. On-camera section still needs three real clips.
+- Every `skills/ig-*/SKILL.md` reads both files first; brand-rules.md wins any conflict. (Upstream claims every skill reads voice.md; only 2 of 13 did.)
+- `skills/ig-human/slop.json`: flags "facility cost", "cost-recovery", "revenue-share", any dollar figure, and competitor names.
+- Fixed `$4,200` and `$18,000` examples that the skill loader garbles into argument placeholders.
+- `install.sh`: symlinks skills and brand files, so `git pull` updates everything in place.
+
+**Install / update (Mac terminal)**
+```bash
+cd "/Volumes/Coding Space/Code/sfc-instagram-bot/sfc-instagram-agent-skill"
+git pull
+./install.sh
+```
+
+**Pull upstream improvements**
+```bash
+git fetch upstream && git merge upstream/main
+```
+
+**Edit the brand once:** change `sfc/brand-rules.md` or `sfc/voice.md`, commit, push. Every skill picks it up.
+
+---
+
 # The Instagram agent skill
 
 Thirteen Claude skills that run an Instagram account. Free, MIT, no signup, no

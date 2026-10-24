@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. The last block of each list is Instagram-specific: caption and voiceover slop that does not show up on other platforms. Edit freely - it is meant to be yours.",
+  "note": "Lexicon used by humanize.py and detect.py. Replacements are plain-English and keep the sentence grammatical. The last block of each list is Instagram-specific: caption and voiceover slop that does not show up on other platforms. Edit freely - it is meant to be yours. SFC fork: entries with id prefix 'sfc-' enforce brand-rules.md hard bans.",
   "invisible": [
     {
       "cp": "U+200B",
@@ -1020,6 +1020,36 @@
       "regex": "(?i)\\b(?:follow for more|tag someone who|double tap if|share this if|comment below if)\\b",
       "name": "Reflex follow or tag bait",
       "fix": "Ask for the one action this post actually earns. The generic ask trains the audience to ignore every ask."
+    },
+    {
+      "id": "sfc-facility-cost",
+      "regex": "(?i)\\bfacility[ -]costs?\\b",
+      "name": "SFC banned term: \"facility cost\"",
+      "fix": "Banned in SFC copy. Delete the money framing entirely."
+    },
+    {
+      "id": "sfc-cost-recovery",
+      "regex": "(?i)\\bcost[ -]recovery\\b",
+      "name": "SFC banned term: \"cost-recovery\"",
+      "fix": "Banned in SFC copy. Delete the money framing entirely."
+    },
+    {
+      "id": "sfc-revenue-share",
+      "regex": "(?i)\\brevenue[ -]shar(?:e|ing)\\b",
+      "name": "SFC banned term: \"revenue-share\"",
+      "fix": "Banned in SFC copy. Delete the money framing entirely."
+    },
+    {
+      "id": "sfc-pricing",
+      "regex": "\\$\\s?\\d",
+      "name": "SFC rule: no pricing in public content",
+      "fix": "Remove the dollar figure. Point to the link in bio instead."
+    },
+    {
+      "id": "sfc-competitor",
+      "regex": "(?i)\\bjunior chef box\\b",
+      "name": "SFC rule: no competitor names",
+      "fix": "Remove the comparison. Talk about SFC only."
     }
   ]
 }

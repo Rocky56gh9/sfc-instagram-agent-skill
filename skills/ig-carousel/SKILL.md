@@ -9,6 +9,12 @@ description: >-
 
 # ig-carousel
 
+> **SFC Central NJ fork.** Before anything else, read
+> `~/.claude/instagram/brand-rules.md` and `~/.claude/instagram/voice.md`.
+> brand-rules.md overrides this file wherever they conflict: hard bans, kids on
+> camera, no pricing, one CTA. Visual output (carousels, covers, story frames)
+> goes through the Canva SFC brand templates, not a home-built renderer.
+
 Carousels are the highest-dwell format on the grid, because a swipe is an
 interaction and a scroll is not. They also get a second chance: Instagram can
 show a carousel again starting from a later slide to someone who did not engage
@@ -88,7 +94,7 @@ copy.
 ```
 CAROUSEL  ·  8 slides
 
-1  COVER   THE $18,000 CLAUSE
+1  COVER   THE 18K CLAUSE
            One line I now put in every contract.
 2  STAKE   I approved the work. They asked for the money back nine days later.
 3          WHAT IT SAYS

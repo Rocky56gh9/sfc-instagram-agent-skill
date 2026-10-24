@@ -10,6 +10,12 @@ description: >-
 
 # ig-dm
 
+> **SFC Central NJ fork.** Before anything else, read
+> `~/.claude/instagram/brand-rules.md` and `~/.claude/instagram/voice.md`.
+> brand-rules.md overrides this file wherever they conflict: hard bans, kids on
+> camera, no pricing, one CTA. Visual output (carousels, covers, story frames)
+> goes through the Canva SFC brand templates, not a home-built renderer.
+
 Instagram DMs are the only place on the platform where money actually changes
 hands, and they are also where most accounts burn the goodwill their content
 earned. The difference is entirely about who moved first.

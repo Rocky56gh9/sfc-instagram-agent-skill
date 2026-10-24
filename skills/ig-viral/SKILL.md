@@ -12,6 +12,12 @@ description: >-
 
 # ig-viral
 
+> **SFC Central NJ fork.** Before anything else, read
+> `~/.claude/instagram/brand-rules.md` and `~/.claude/instagram/voice.md`.
+> brand-rules.md overrides this file wherever they conflict: hard bans, kids on
+> camera, no pricing, one CTA. Visual output (carousels, covers, story frames)
+> goes through the Canva SFC brand templates, not a home-built renderer.
+
 The research skill. Everything else in this pack writes; this one goes and
 looks. Run it monthly, not daily. Formulas last a season.
 

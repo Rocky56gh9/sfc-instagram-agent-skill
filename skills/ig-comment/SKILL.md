@@ -9,6 +9,12 @@ description: >-
 
 # ig-comment
 
+> **SFC Central NJ fork.** Before anything else, read
+> `~/.claude/instagram/brand-rules.md` and `~/.claude/instagram/voice.md`.
+> brand-rules.md overrides this file wherever they conflict: hard bans, kids on
+> camera, no pricing, one CTA. Visual output (carousels, covers, story frames)
+> goes through the Canva SFC brand templates, not a home-built renderer.
+
 Commenting is the highest-leverage twenty minutes on Instagram and the easiest
 to do badly. A comment near the top of a reel with 40,000 views is seen by more
 people than most accounts' own posts, and it is the one place where a stranger
